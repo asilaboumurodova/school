@@ -1,0 +1,29 @@
+@media(max-width: 1200px) {
+    .header__content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 150px;
+    }
+    .collections__content {
+        flex-wrap: wrap;
+        column-gap: 30px;
+        max-width: 800px;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .collections__item{
+        flex-shrink: 0;
+    }
+    
+    .pricing__content{
+        flex-wrap: wrap;
+        column-gap: 30px;
+        max-width: 800px;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+}
